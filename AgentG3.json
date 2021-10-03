@@ -28,7 +28,7 @@
       "displayName": "Connect Time",
       "description": "Time in seconds between connection attempts",
       "schema": "integer",
-      "writable": true
+      "writable": "true"
     },
     {
       "@type": "Property",
@@ -36,14 +36,13 @@
       "displayName": "Sample Time",
       "description": "Time in seconds between samples",
       "schema": "integer",
-      "writable": true
+      "writable": "true"
     },
     {
       "@type": "Command",
       "name": "restart",
       "displayName": "Restart",
-      "description": "This command restarts the AgentG3.",
-      
+      "description": "This command restarts the AgentG3."
     }
   ]
 }
