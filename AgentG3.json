@@ -28,7 +28,7 @@
       "displayName": "Connect Time",
       "description": "Time in seconds between connection attempts",
       "schema": "integer",
-      "writable": "true"
+      "writable": true
     },
     {
       "@type": "Property",
@@ -36,7 +36,7 @@
       "displayName": "Sample Time",
       "description": "Time in seconds between samples",
       "schema": "integer",
-      "writable": "true"
+      "writable": true
     },
     {
       "@type": "Command",
