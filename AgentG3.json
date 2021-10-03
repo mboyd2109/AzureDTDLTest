@@ -1,0 +1,49 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:example:AgentG3;1",
+  "@type": "Interface",
+  "displayName": "AgentG3 Test1",
+  "description": "Reports X1 & X2.",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "X1",
+      "schema": "double"
+    },
+    {
+      "@type": "Telemetry",
+      "name": "X2",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "serialNumber",
+      "displayName": "Serial Number",
+      "description": "Serial number of the device.",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "connectTime",
+      "displayName": "Connect Time",
+      "description": "Time in seconds between connection attempts",
+      "schema": "integer",
+      "writable": true
+    },
+    {
+      "@type": "Property",
+      "name": "sampleTime",
+      "displayName": "Sample Time",
+      "description": "Time in seconds between samples",
+      "schema": "integer",
+      "writable": true
+    },
+    {
+      "@type": "Command",
+      "name": "restart",
+      "displayName": "Restart",
+      "description": "This command restarts the AgentG3.",
+      
+    }
+  ]
+}
